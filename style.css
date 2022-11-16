@@ -2,6 +2,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     display: flex;
     flex-direction: column;
+    
 }
 .sect-1{
     display: flex;
@@ -12,6 +13,14 @@ body{
 
 .header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 300px;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: bolder;
 }
 
 .sect-1-info{
@@ -21,11 +30,14 @@ body{
 ul{
     display: flex;
     list-style: none;
-    margin: 0px;
+    margin: 5px ;
     padding: 0px;
+    
 }
 
 a{
     text-decoration: none;
+    font-size: 24px;
     color: aliceblue;
+    padding-left: 15px;
 }
