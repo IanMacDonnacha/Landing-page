@@ -135,7 +135,7 @@ p{
 .sect-4-container{
     display: flex;
     background-color: #3882F6;
-    margin: 45px 300px;
+    margin: 100px 300px;
     border-radius: 8px;
     padding: 45px 150px;
     justify-content: space-between;
@@ -163,4 +163,15 @@ p{
     border: solid;
     border-radius: 8px;
     font-weight: bolder;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #1f2937;
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
