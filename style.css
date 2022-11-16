@@ -15,16 +15,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 300px;
+    margin: 20px 350px;
 }
 
 .logo{
     font-size: 26px;
     font-weight: bolder;
-}
-
-.sect-1-info{
-    display: flex;
 }
 
 ul{
@@ -41,3 +37,40 @@ a{
     color: aliceblue;
     padding-left: 15px;
 }
+
+.sect-1-info{
+    display: flex;
+    margin: 100px 350px 
+    
+}
+
+.sect-1-right,
+.sect-1-left {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.sect-1-right{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 46px;
+    margin: 0px;
+}
+
+p{
+    font-size: 26px;
+}
+
+.button1{
+    background-color: #3882F6;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+}
+
+
